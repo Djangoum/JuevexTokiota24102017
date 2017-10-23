@@ -1,0 +1,11 @@
+c:\users\arielamorgarcia\Source\Repos\Asp.NetCore.CookieAuthentication\Asp.NetCore.CookieAuthentication\bin\Debug\netcoreapp2.0\Asp.NetCore.CookieAuthentication.deps.json
+c:\users\arielamorgarcia\Source\Repos\Asp.NetCore.CookieAuthentication\Asp.NetCore.CookieAuthentication\bin\Debug\netcoreapp2.0\Asp.NetCore.CookieAuthentication.runtimeconfig.json
+c:\users\arielamorgarcia\Source\Repos\Asp.NetCore.CookieAuthentication\Asp.NetCore.CookieAuthentication\bin\Debug\netcoreapp2.0\Asp.NetCore.CookieAuthentication.runtimeconfig.dev.json
+c:\users\arielamorgarcia\Source\Repos\Asp.NetCore.CookieAuthentication\Asp.NetCore.CookieAuthentication\bin\Debug\netcoreapp2.0\Asp.NetCore.CookieAuthentication.dll
+c:\users\arielamorgarcia\Source\Repos\Asp.NetCore.CookieAuthentication\Asp.NetCore.CookieAuthentication\obj\Debug\netcoreapp2.0\Asp.NetCore.CookieAuthentication.csprojResolveAssemblyReference.cache
+c:\users\arielamorgarcia\Source\Repos\Asp.NetCore.CookieAuthentication\Asp.NetCore.CookieAuthentication\obj\Debug\netcoreapp2.0\Asp.NetCore.CookieAuthentication.csproj.CoreCompileInputs.cache
+c:\users\arielamorgarcia\Source\Repos\Asp.NetCore.CookieAuthentication\Asp.NetCore.CookieAuthentication\obj\Debug\netcoreapp2.0\Asp.NetCore.CookieAuthentication.AssemblyInfoInputs.cache
+c:\users\arielamorgarcia\Source\Repos\Asp.NetCore.CookieAuthentication\Asp.NetCore.CookieAuthentication\obj\Debug\netcoreapp2.0\Asp.NetCore.CookieAuthentication.AssemblyInfo.cs
+c:\users\arielamorgarcia\Source\Repos\Asp.NetCore.CookieAuthentication\Asp.NetCore.CookieAuthentication\bin\Debug\netcoreapp2.0\Asp.NetCore.CookieAuthentication.pdb
+c:\users\arielamorgarcia\Source\Repos\Asp.NetCore.CookieAuthentication\Asp.NetCore.CookieAuthentication\obj\Debug\netcoreapp2.0\Asp.NetCore.CookieAuthentication.dll
+c:\users\arielamorgarcia\Source\Repos\Asp.NetCore.CookieAuthentication\Asp.NetCore.CookieAuthentication\obj\Debug\netcoreapp2.0\Asp.NetCore.CookieAuthentication.pdb

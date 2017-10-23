@@ -1,0 +1,11 @@
+C:\Users\ArielAmorGarcia\Source\Repos\Asp.NetCore.UltraBasicAuthentication\Asp.NetCore.UltraBasicAuthentication\bin\Debug\netcoreapp2.0\Asp.NetCore.UltraBasicAuthentication.deps.json
+C:\Users\ArielAmorGarcia\Source\Repos\Asp.NetCore.UltraBasicAuthentication\Asp.NetCore.UltraBasicAuthentication\bin\Debug\netcoreapp2.0\Asp.NetCore.UltraBasicAuthentication.runtimeconfig.json
+C:\Users\ArielAmorGarcia\Source\Repos\Asp.NetCore.UltraBasicAuthentication\Asp.NetCore.UltraBasicAuthentication\bin\Debug\netcoreapp2.0\Asp.NetCore.UltraBasicAuthentication.runtimeconfig.dev.json
+C:\Users\ArielAmorGarcia\Source\Repos\Asp.NetCore.UltraBasicAuthentication\Asp.NetCore.UltraBasicAuthentication\bin\Debug\netcoreapp2.0\Asp.NetCore.UltraBasicAuthentication.dll
+C:\Users\ArielAmorGarcia\Source\Repos\Asp.NetCore.UltraBasicAuthentication\Asp.NetCore.UltraBasicAuthentication\obj\Debug\netcoreapp2.0\Asp.NetCore.UltraBasicAuthentication.csprojResolveAssemblyReference.cache
+C:\Users\ArielAmorGarcia\Source\Repos\Asp.NetCore.UltraBasicAuthentication\Asp.NetCore.UltraBasicAuthentication\obj\Debug\netcoreapp2.0\Asp.NetCore.UltraBasicAuthentication.csproj.CoreCompileInputs.cache
+C:\Users\ArielAmorGarcia\Source\Repos\Asp.NetCore.UltraBasicAuthentication\Asp.NetCore.UltraBasicAuthentication\obj\Debug\netcoreapp2.0\Asp.NetCore.UltraBasicAuthentication.AssemblyInfoInputs.cache
+C:\Users\ArielAmorGarcia\Source\Repos\Asp.NetCore.UltraBasicAuthentication\Asp.NetCore.UltraBasicAuthentication\obj\Debug\netcoreapp2.0\Asp.NetCore.UltraBasicAuthentication.AssemblyInfo.cs
+C:\Users\ArielAmorGarcia\Source\Repos\Asp.NetCore.UltraBasicAuthentication\Asp.NetCore.UltraBasicAuthentication\bin\Debug\netcoreapp2.0\Asp.NetCore.UltraBasicAuthentication.pdb
+C:\Users\ArielAmorGarcia\Source\Repos\Asp.NetCore.UltraBasicAuthentication\Asp.NetCore.UltraBasicAuthentication\obj\Debug\netcoreapp2.0\Asp.NetCore.UltraBasicAuthentication.dll
+C:\Users\ArielAmorGarcia\Source\Repos\Asp.NetCore.UltraBasicAuthentication\Asp.NetCore.UltraBasicAuthentication\obj\Debug\netcoreapp2.0\Asp.NetCore.UltraBasicAuthentication.pdb

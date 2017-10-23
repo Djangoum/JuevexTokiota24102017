@@ -1,0 +1,10 @@
+c:\users\arielamorgarcia\Source\Repos\Asp.NetCore.DualAuthenticationScheme\Asp.NetCore.DualAuthenticationScheme\bin\Debug\netcoreapp2.0\Asp.NetCore.DualAuthenticationScheme.deps.json
+c:\users\arielamorgarcia\Source\Repos\Asp.NetCore.DualAuthenticationScheme\Asp.NetCore.DualAuthenticationScheme\bin\Debug\netcoreapp2.0\Asp.NetCore.DualAuthenticationScheme.runtimeconfig.json
+c:\users\arielamorgarcia\Source\Repos\Asp.NetCore.DualAuthenticationScheme\Asp.NetCore.DualAuthenticationScheme\bin\Debug\netcoreapp2.0\Asp.NetCore.DualAuthenticationScheme.runtimeconfig.dev.json
+c:\users\arielamorgarcia\Source\Repos\Asp.NetCore.DualAuthenticationScheme\Asp.NetCore.DualAuthenticationScheme\bin\Debug\netcoreapp2.0\Asp.NetCore.DualAuthenticationScheme.dll
+c:\users\arielamorgarcia\Source\Repos\Asp.NetCore.DualAuthenticationScheme\Asp.NetCore.DualAuthenticationScheme\obj\Debug\netcoreapp2.0\Asp.NetCore.DualAuthenticationScheme.csproj.CoreCompileInputs.cache
+c:\users\arielamorgarcia\Source\Repos\Asp.NetCore.DualAuthenticationScheme\Asp.NetCore.DualAuthenticationScheme\obj\Debug\netcoreapp2.0\Asp.NetCore.DualAuthenticationScheme.AssemblyInfoInputs.cache
+c:\users\arielamorgarcia\Source\Repos\Asp.NetCore.DualAuthenticationScheme\Asp.NetCore.DualAuthenticationScheme\obj\Debug\netcoreapp2.0\Asp.NetCore.DualAuthenticationScheme.AssemblyInfo.cs
+c:\users\arielamorgarcia\Source\Repos\Asp.NetCore.DualAuthenticationScheme\Asp.NetCore.DualAuthenticationScheme\bin\Debug\netcoreapp2.0\Asp.NetCore.DualAuthenticationScheme.pdb
+c:\users\arielamorgarcia\Source\Repos\Asp.NetCore.DualAuthenticationScheme\Asp.NetCore.DualAuthenticationScheme\obj\Debug\netcoreapp2.0\Asp.NetCore.DualAuthenticationScheme.dll
+c:\users\arielamorgarcia\Source\Repos\Asp.NetCore.DualAuthenticationScheme\Asp.NetCore.DualAuthenticationScheme\obj\Debug\netcoreapp2.0\Asp.NetCore.DualAuthenticationScheme.pdb

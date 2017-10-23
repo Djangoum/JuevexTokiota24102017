@@ -1,0 +1,11 @@
+C:\Users\ArielAmorGarcia\Source\Repos\Asp.NetCore.JwtAuthentication\Asp.NetCore.JwtAuthentication\bin\Debug\netcoreapp2.0\Asp.NetCore.JwtAuthentication.deps.json
+C:\Users\ArielAmorGarcia\Source\Repos\Asp.NetCore.JwtAuthentication\Asp.NetCore.JwtAuthentication\bin\Debug\netcoreapp2.0\Asp.NetCore.JwtAuthentication.runtimeconfig.json
+C:\Users\ArielAmorGarcia\Source\Repos\Asp.NetCore.JwtAuthentication\Asp.NetCore.JwtAuthentication\bin\Debug\netcoreapp2.0\Asp.NetCore.JwtAuthentication.runtimeconfig.dev.json
+C:\Users\ArielAmorGarcia\Source\Repos\Asp.NetCore.JwtAuthentication\Asp.NetCore.JwtAuthentication\bin\Debug\netcoreapp2.0\Asp.NetCore.JwtAuthentication.dll
+C:\Users\ArielAmorGarcia\Source\Repos\Asp.NetCore.JwtAuthentication\Asp.NetCore.JwtAuthentication\obj\Debug\netcoreapp2.0\Asp.NetCore.JwtAuthentication.csprojResolveAssemblyReference.cache
+C:\Users\ArielAmorGarcia\Source\Repos\Asp.NetCore.JwtAuthentication\Asp.NetCore.JwtAuthentication\obj\Debug\netcoreapp2.0\Asp.NetCore.JwtAuthentication.csproj.CoreCompileInputs.cache
+C:\Users\ArielAmorGarcia\Source\Repos\Asp.NetCore.JwtAuthentication\Asp.NetCore.JwtAuthentication\obj\Debug\netcoreapp2.0\Asp.NetCore.JwtAuthentication.AssemblyInfoInputs.cache
+C:\Users\ArielAmorGarcia\Source\Repos\Asp.NetCore.JwtAuthentication\Asp.NetCore.JwtAuthentication\obj\Debug\netcoreapp2.0\Asp.NetCore.JwtAuthentication.AssemblyInfo.cs
+C:\Users\ArielAmorGarcia\Source\Repos\Asp.NetCore.JwtAuthentication\Asp.NetCore.JwtAuthentication\bin\Debug\netcoreapp2.0\Asp.NetCore.JwtAuthentication.pdb
+C:\Users\ArielAmorGarcia\Source\Repos\Asp.NetCore.JwtAuthentication\Asp.NetCore.JwtAuthentication\obj\Debug\netcoreapp2.0\Asp.NetCore.JwtAuthentication.dll
+C:\Users\ArielAmorGarcia\Source\Repos\Asp.NetCore.JwtAuthentication\Asp.NetCore.JwtAuthentication\obj\Debug\netcoreapp2.0\Asp.NetCore.JwtAuthentication.pdb
