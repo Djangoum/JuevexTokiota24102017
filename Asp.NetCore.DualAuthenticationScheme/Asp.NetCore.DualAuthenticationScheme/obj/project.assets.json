@@ -13124,11 +13124,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "c:\\users\\arielamorgarcia\\Source\\Repos\\Asp.NetCore.DualAuthenticationScheme\\Asp.NetCore.DualAuthenticationScheme\\Asp.NetCore.DualAuthenticationScheme.csproj",
+      "projectUniqueName": "C:\\Projects\\TokiotaJuevex\\Asp.NetCore.DualAuthenticationScheme\\Asp.NetCore.DualAuthenticationScheme\\Asp.NetCore.DualAuthenticationScheme.csproj",
       "projectName": "Asp.NetCore.DualAuthenticationScheme",
-      "projectPath": "c:\\users\\arielamorgarcia\\Source\\Repos\\Asp.NetCore.DualAuthenticationScheme\\Asp.NetCore.DualAuthenticationScheme\\Asp.NetCore.DualAuthenticationScheme.csproj",
+      "projectPath": "C:\\Projects\\TokiotaJuevex\\Asp.NetCore.DualAuthenticationScheme\\Asp.NetCore.DualAuthenticationScheme\\Asp.NetCore.DualAuthenticationScheme.csproj",
       "packagesPath": "C:\\Users\\ArielAmorGarcia\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\arielamorgarcia\\Source\\Repos\\Asp.NetCore.DualAuthenticationScheme\\Asp.NetCore.DualAuthenticationScheme\\obj\\",
+      "outputPath": "C:\\Projects\\TokiotaJuevex\\Asp.NetCore.DualAuthenticationScheme\\Asp.NetCore.DualAuthenticationScheme\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

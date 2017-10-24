@@ -5,10 +5,11 @@ Vue.use(Vuex)
 
 // TYPES
 const MAIN_SET_COUNTER = 'MAIN_SET_COUNTER'
+const SET_COUNTER = 'setCounter'
 
 // STATE
 const state = {
-    loggedIn: false,
+    authenticationToken: '',
     counter: 0
 }
 
@@ -21,7 +22,7 @@ const mutations = {
 
 // ACTIONS
 const actions = ({
-    setCounter({ commit }, obj) {
+    [SET_COUNTER]({ commit }, obj) {
         commit(MAIN_SET_COUNTER, obj)
     }
 })

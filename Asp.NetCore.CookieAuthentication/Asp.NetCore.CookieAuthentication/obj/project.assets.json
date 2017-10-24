@@ -13125,11 +13125,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\ArielAmorGarcia\\Source\\Repos\\Asp.NetCore.CookieAuthentication\\Asp.NetCore.CookieAuthentication\\Asp.NetCore.CookieAuthentication.csproj",
+      "projectUniqueName": "C:\\Projects\\TokiotaJuevex\\Asp.NetCore.CookieAuthentication\\Asp.NetCore.CookieAuthentication\\Asp.NetCore.CookieAuthentication.csproj",
       "projectName": "Asp.NetCore.CookieAuthentication",
-      "projectPath": "C:\\Users\\ArielAmorGarcia\\Source\\Repos\\Asp.NetCore.CookieAuthentication\\Asp.NetCore.CookieAuthentication\\Asp.NetCore.CookieAuthentication.csproj",
+      "projectPath": "C:\\Projects\\TokiotaJuevex\\Asp.NetCore.CookieAuthentication\\Asp.NetCore.CookieAuthentication\\Asp.NetCore.CookieAuthentication.csproj",
       "packagesPath": "C:\\Users\\ArielAmorGarcia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ArielAmorGarcia\\Source\\Repos\\Asp.NetCore.CookieAuthentication\\Asp.NetCore.CookieAuthentication\\obj\\",
+      "outputPath": "C:\\Projects\\TokiotaJuevex\\Asp.NetCore.CookieAuthentication\\Asp.NetCore.CookieAuthentication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

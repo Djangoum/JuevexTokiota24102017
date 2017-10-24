@@ -1,16 +1,13 @@
 <template>
-    <v-app id="app" class="container-fluid">
-        <div class="row">
-            <div class="col-sm-3" v-if="isLogged">
-                <nav-menu params="route: route"></nav-menu>
-            </div>
-            <div class="col-sm-12">
-                <router-view></router-view>
-            </div>
+    <v-app id="app" v-bind:class="{ 'backgroundImage' : (authenticationToken == '') }" class="container-fluid">
+        <notifications group="generalNotifications" />
+        <div class="col-sm-3" v-if="authenticationToken !== ''">
+            <nav-menu params="route: route"></nav-menu>
         </div>
-
+        <div v-bind:class="{ 'col-sm-offset-3 col-sm-9': (authenticationToken !== '') }">
+            <router-view></router-view>
+        </div>
     </v-app>
-
 </template>
 
 <script>
@@ -27,8 +24,8 @@ Vue.component('nav-menu', NavMenu);
 
     export default {
         computed: {
-            isLogged() {
-                return this.$store.loggedIn;
+            authenticationToken() {
+                return this.$store.state.authenticationToken;
             }
         },
         data() {
@@ -38,5 +35,11 @@ Vue.component('nav-menu', NavMenu);
 }
 </script>
 
-<style>
+<style scoped>
+
+    .backgroundImage {
+        background-image: url("http://cdn.pcwallart.com/images/new-york-city-at-night-black-and-white-wallpaper-1.jpg");
+        background-size: cover;
+    }
+
 </style>

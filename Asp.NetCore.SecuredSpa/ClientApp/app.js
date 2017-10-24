@@ -5,10 +5,13 @@ import store from './store'
 import { sync } from 'vuex-router-sync'
 import App from 'components/app-root'
 import Vuetify from 'vuetify'
+import VueNotify from 'vue-notification'
 
 Vue.prototype.$http = axios;
 
 Vue.use(Vuetify);
+
+Vue.use(VueNotify);
 
 sync(store, router)
 

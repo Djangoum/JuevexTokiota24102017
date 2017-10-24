@@ -14,7 +14,7 @@ namespace Asp.NetCore.CookieAuthentication.Controllers
         {
             return View();
         }
-
+         
         public IActionResult Forbidden()
         {
             return View();
@@ -43,7 +43,7 @@ namespace Asp.NetCore.CookieAuthentication.Controllers
                     AllowRefresh= true,
                     ExpiresUtc= DateTime.UtcNow.AddYears(80)
                 });
-
+             
             return RedirectToAction("Index", "Home");
         }
     }

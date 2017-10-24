@@ -13124,11 +13124,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\ArielAmorGarcia\\Source\\Repos\\Asp.NetCore.UltraBasicAuthentication\\Asp.NetCore.UltraBasicAuthentication\\Asp.NetCore.UltraBasicAuthentication.csproj",
+      "projectUniqueName": "C:\\Projects\\TokiotaJuevex\\Asp.NetCore.UltraBasicAuthentication\\Asp.NetCore.UltraBasicAuthentication\\Asp.NetCore.UltraBasicAuthentication.csproj",
       "projectName": "Asp.NetCore.UltraBasicAuthentication",
-      "projectPath": "C:\\Users\\ArielAmorGarcia\\Source\\Repos\\Asp.NetCore.UltraBasicAuthentication\\Asp.NetCore.UltraBasicAuthentication\\Asp.NetCore.UltraBasicAuthentication.csproj",
+      "projectPath": "C:\\Projects\\TokiotaJuevex\\Asp.NetCore.UltraBasicAuthentication\\Asp.NetCore.UltraBasicAuthentication\\Asp.NetCore.UltraBasicAuthentication.csproj",
       "packagesPath": "C:\\Users\\ArielAmorGarcia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ArielAmorGarcia\\Source\\Repos\\Asp.NetCore.UltraBasicAuthentication\\Asp.NetCore.UltraBasicAuthentication\\obj\\",
+      "outputPath": "C:\\Projects\\TokiotaJuevex\\Asp.NetCore.UltraBasicAuthentication\\Asp.NetCore.UltraBasicAuthentication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

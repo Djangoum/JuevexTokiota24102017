@@ -13124,11 +13124,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\ArielAmorGarcia\\Source\\Repos\\Asp.NetCore.JwtAuthentication\\Asp.NetCore.JwtAuthentication\\Asp.NetCore.JwtAuthentication.csproj",
+      "projectUniqueName": "C:\\Projects\\TokiotaJuevex\\Asp.NetCore.JwtAuthentication\\Asp.NetCore.JwtAuthentication\\Asp.NetCore.JwtAuthentication.csproj",
       "projectName": "Asp.NetCore.JwtAuthentication",
-      "projectPath": "C:\\Users\\ArielAmorGarcia\\Source\\Repos\\Asp.NetCore.JwtAuthentication\\Asp.NetCore.JwtAuthentication\\Asp.NetCore.JwtAuthentication.csproj",
+      "projectPath": "C:\\Projects\\TokiotaJuevex\\Asp.NetCore.JwtAuthentication\\Asp.NetCore.JwtAuthentication\\Asp.NetCore.JwtAuthentication.csproj",
       "packagesPath": "C:\\Users\\ArielAmorGarcia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ArielAmorGarcia\\Source\\Repos\\Asp.NetCore.JwtAuthentication\\Asp.NetCore.JwtAuthentication\\obj\\",
+      "outputPath": "C:\\Projects\\TokiotaJuevex\\Asp.NetCore.JwtAuthentication\\Asp.NetCore.JwtAuthentication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
