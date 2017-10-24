@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asp.NetCore.CrsfVictimApplication", "Asp.NetCore.CrsfVictimApplication\Asp.NetCore.CrsfVictimApplication.csproj", "{96717D88-E755-4B25-899A-31C795060997}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Asp.NetCore.CrsfAttackerApplication", "Asp.NetCore.CrsfAttackerApplication\Asp.NetCore.CrsfAttackerApplication.csproj", "{1942CC2A-D51E-4D7B-B5C1-BCACB7AA2CD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96717D88-E755-4B25-899A-31C795060997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96717D88-E755-4B25-899A-31C795060997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96717D88-E755-4B25-899A-31C795060997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96717D88-E755-4B25-899A-31C795060997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1942CC2A-D51E-4D7B-B5C1-BCACB7AA2CD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1942CC2A-D51E-4D7B-B5C1-BCACB7AA2CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1942CC2A-D51E-4D7B-B5C1-BCACB7AA2CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1942CC2A-D51E-4D7B-B5C1-BCACB7AA2CD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4647CC39-A7F2-4B94-B348-59251259FE90}
+	EndGlobalSection
+EndGlobal

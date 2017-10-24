@@ -1,0 +1,11 @@
+{
+  "author": "Mark Pieszak",
+  "dependencies": {
+    "jquery": "3.2.1"
+  },
+  "devDependencies": {
+
+  },
+  "description": "ASP.NET Core & VueJS Starter project",
+  "name": "aspnetcore-vuejs"
+}

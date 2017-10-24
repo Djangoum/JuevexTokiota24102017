@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm("TransferMoney", "TransferMoney", new { FromAccount = "ariel", ToAccount = "Tokiota", Amount = 12.98 }))
+{
+    <button type="submit"></button>
+}
