@@ -12,7 +12,7 @@ let router = new VueRouter({
 })
 
 router.beforeEach((to, from, next) => {
-    if (to.path !== '/' && store.state.authenticationToken === '') {
+    if (to.path !== '/' && !store.state.loggedIn) {
         next("/");
     } else {
         next();

@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+@using(Html.BeginForm("Reflect","Home", FormMethod.Post))
+{
+    <input type="text" name="jsCode" id="jsCode" />
+    <button type="submit">Send Form </button>
+}

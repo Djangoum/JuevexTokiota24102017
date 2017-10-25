@@ -6,23 +6,27 @@ using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
-using Asp.NetCore.SecuredSpa.Models;
 using System.Net;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.Extensions.Configuration;
 using System.Text;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Asp.NetCore.SecuredSpa.Security;
+using Vue2Spa.Controllers;
 
 namespace Asp.NetCore.SecuredSpa.Controllers
 {
-    [AllowAnonymous]
+    [Authorize]
     public class AccountController : Controller
     {
         private readonly IConfiguration _config;
+        private readonly IJwtTokenGenerator _tokenGenerator;
 
-        public AccountController(IConfiguration config)
+        public AccountController(IConfiguration config, IJwtTokenGenerator tokenGenerator)
         {
             _config = config;
+            _tokenGenerator = tokenGenerator;
         }   
 
         public IActionResult Index()
@@ -41,32 +45,43 @@ namespace Asp.NetCore.SecuredSpa.Controllers
         }
 
         [HttpPost]
-        public IActionResult Authorize([FromBody]LoginModel model)
-        {
-            if (ModelState.IsValid)
+        [AllowAnonymous]
+        public async Task<IActionResult> Authorize([FromBody]LoginModel loginModel)
+        { 
+            var tokenWithClaimsPrincipal =
+               _tokenGenerator.GenerateAccessTokenIfIdentityConfirmed(
+                                 loginModel.Username, loginModel.Password);
+
+            if (!string.IsNullOrWhiteSpace(tokenWithClaimsPrincipal.AccessToken))
             {
-                if (model.Username == "ariel" && model.Password == "123123")
-                {
-                    var claims = new[]
-                    {
-                    new Claim(JwtRegisteredClaimNames.Sub, model.Username),
-                    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-                };
+                AuthenticationProperties authProps = new AuthenticationProperties();
+                authProps.Items.Add(new KeyValuePair<string, string>("jwt",
+                                     tokenWithClaimsPrincipal.AccessToken));
 
-                    var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Tokens:Key"]));
-                    var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+                await HttpContext.SignInAsync(
+                             CookieAuthenticationDefaults.AuthenticationScheme,
+                             tokenWithClaimsPrincipal.ClaimsPrincipal,
+                             authProps);
 
-                    var token = new JwtSecurityToken(_config["Tokens:Issuer"],
-                        _config["Tokens:Issuer"],
-                        claims,
-                        expires: DateTime.Now.AddMinutes(30),
-                        signingCredentials: creds);
-
-                    return Ok(new { token = new JwtSecurityTokenHandler().WriteToken(token) });
-                }
-                return Forbid("Login Incorrect");
+                return new JsonResult(new { success = true });
             }
-            return BadRequest();
+            else
+            {
+                return BadRequest();
+            }
+        }
+        
+        public JsonResult CheckLogin()
+        {
+            return new JsonResult(new { success = true });
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+
+            return RedirectToAction(nameof(HomeController.Index), "Home");
         }
     }
 }

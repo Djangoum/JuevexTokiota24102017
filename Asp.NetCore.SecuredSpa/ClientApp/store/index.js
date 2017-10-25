@@ -9,7 +9,7 @@ const SET_COUNTER = 'setCounter'
 
 // STATE
 const state = {
-    authenticationToken: '',
+    loggedIn: false,
     counter: 0
 }
 

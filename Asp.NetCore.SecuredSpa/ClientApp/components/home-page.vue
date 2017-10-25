@@ -70,15 +70,13 @@
                             Password: this.password
                         })
                         .then(result => {
-                            this.$store.state.authenticationToken = result.data.token;
-                            if (result !== null && result !== undefined && result.data.token !== '' && result.data.token !== null && result.data.token !== undefined)
+                            this.$store.state.loggedIn = result.data.success;
+                            if (result.data.success)
                                 this.$router.push('/counter');
-
-                            axios.defaults.headers.common['Authorization'] = 'Bearer ' + result.data.token;
                         })
                         .catch(error => {
-                            this.$notify({
-                                group:"generalNotifications", type: "error", text: "Invalid Login Attempt" });
+                            this.$notify({ type: 'error', text: "Invalid login attempt", group: "generalNotifications" });
+                            this.$store.state.loggedIn = false;
                         });
                 }
             }
